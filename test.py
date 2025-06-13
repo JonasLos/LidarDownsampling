@@ -1,3 +1,5 @@
+#code by Dr. Talebpour 
+
 def distance_adaptive_downsample(points: np.ndarray, near_keep_prob=0.1, far_keep_prob=1.0, max_distance=100.0) -> np.ndarray:
     """
     Downsample a point cloud based on distance from origin. Retains more distant points.
